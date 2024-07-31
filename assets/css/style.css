@@ -6,24 +6,25 @@ body {
     background-color: var(--pink);
 }
 
-img {
-    margin-left: 200px;
-    margin-right: -150px;
-    width: 200px;
-    height: auto;
-    /* border: 2px solid red; */
-}
-
 .navbar {
     display: flex;
 }
 
 h1 {
     font-family: "Sacramento", cursive;
-    font-size: 75px;
+    font-size: 90px;
     font-weight: 400;
     font-style: normal;
     margin: auto;
     /* border: 2px solid red; */
     padding: 30px;
+}
+
+#needle-and-thread {
+    margin-top: auto;
+    margin-left: auto;
+    width: 200px;
+    height: auto;
+    /* border: 2px solid red; */
+    z-index: 1;
 }
