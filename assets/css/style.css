@@ -150,3 +150,33 @@ footer {
     position: relative;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 1024px) {
+    header {
+        display: block;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .facts {
+        margin-top: 5px;
+        width: 60%;
+    }
+
+    #needle-blue-thread1, #needle-blue-thread2 {
+        margin-top: auto;
+        margin-left: auto;
+        width: 100px;
+        height: auto;
+        /* border: 2px solid red; */
+        z-index: 1;
+    }
+
+  }
