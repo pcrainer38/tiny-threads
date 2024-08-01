@@ -21,16 +21,16 @@ h1 {
 }
 
 h3 {
-    text-align: center;
-    font-size: 24px;
+    font-size: 18px;
 }
 
-h4 {
-    text-align: center;
+p {
+  font-size: 10px;
 }
 
 footer {
     margin: 30px;
+    text-align: center;
 }
 
 .navbar {
@@ -48,6 +48,19 @@ footer {
     border-radius: 30px;
     justify-content: center;
     align-content: center;
+    text-align: center;
+}
+
+.thanks-container {
+  display: block;
+  border: 2px solid black;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: antiquewhite;
 }
 
 #needle-blue-thread1, #needle-blue-thread2 {
@@ -59,11 +72,16 @@ footer {
     z-index: 1;
 }
 
+#thank-you {
+  font-weight: bold;
+  text-align: center;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   /* The actual timeline (the vertical ruler) */
@@ -152,17 +170,44 @@ footer {
   }
 
   @media screen and (max-width: 1024px) {
-    header {
-        display: block;
-
-    }
 
     h1 {
-        font-size: 30px;
+        font-size: 60px;
+        text-align: center;
     }
 
     h3 {
-        font-size: 14px;
+        font-size: 18px;
+    }
+
+    .facts {
+        margin-top: 5px;
+        width: 60%;
+        font-size: 12px;
+    }
+
+
+    #needle-blue-thread1, #needle-blue-thread2 {
+        margin: auto;
+        width: 25%;
+        height: auto;
+        z-index: 1;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    p {
+      font-size: 10px;
     }
 
     .facts {
@@ -171,12 +216,19 @@ footer {
     }
 
     #needle-blue-thread1, #needle-blue-thread2 {
-        margin-top: auto;
-        margin-left: auto;
-        width: 100px;
+        margin: auto;
+        width: 25%;
         height: auto;
         /* border: 2px solid red; */
         z-index: 1;
     }
+
+    .content h1 {
+      font-size: 10px;
+    }
+
+    .content p {
+      font-size: 12px;
+    }    
 
   }
