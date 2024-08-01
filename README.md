@@ -22,7 +22,7 @@
 
   ## Usage 
  
-  Open link.
+  [Open link.](https://pcrainer38.github.io/tiny-threads/)
 
   ## Contributing   
  
