@@ -24,7 +24,12 @@ h3 {
     font-size: 18px;
 }
 
-
+img {
+  display: block;
+  max-width: 12%;
+  height: auto;
+  border-radius: 8px;
+}
 
 footer {
     margin: 30px;
@@ -61,6 +66,13 @@ footer {
   background-color: antiquewhite;
 }
 
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
 #needle-blue-thread1, #needle-blue-thread2 {
     margin-top: auto;
     margin-left: auto;
@@ -73,6 +85,56 @@ footer {
 #thank-you {
   font-weight: bold;
   text-align: center;
+}
+
+#img1 {
+  transform: rotate(-12deg);
+  /* margin-left: 30px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img7 {
+  transform: rotate(12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img4 {
+  transform: rotate(12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img6 {
+  transform: rotate(12deg);
+  /* margin-left: 30px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img2 {
+  transform: rotate(-12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img3 {
+  transform: rotate(12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img5 {
+  transform: rotate(-12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img8 {
+  transform: rotate(-12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* The actual timeline (the vertical ruler) */
