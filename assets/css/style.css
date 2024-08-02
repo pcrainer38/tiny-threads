@@ -93,13 +93,13 @@ footer {
   margin-bottom: 15px;
 }
 
-#img7 {
+#img4 {
   transform: rotate(12deg);
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-#img4 {
+#img5 {
   transform: rotate(12deg);
   margin-top: 15px;
   margin-bottom: 15px;
@@ -111,20 +111,8 @@ footer {
   margin-bottom: 15px;
 }
 
-#img2 {
-  transform: rotate(-12deg);
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#img3 {
+#img7 {
   transform: rotate(12deg);
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#img5 {
-  transform: rotate(-12deg);
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -133,6 +121,18 @@ footer {
   transform: rotate(-12deg);
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+#img9 {
+  transform: rotate(-12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img10 {
+ transform: rotate(-12deg);
+ margin-top: 15px;
+ margin-bottom: 15px;
 }
 
 /* The actual timeline (the vertical ruler) */
