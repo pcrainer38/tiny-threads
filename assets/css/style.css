@@ -105,12 +105,6 @@ footer {
   margin-bottom: 15px;
 }
 
-#img7 {
-  transform: rotate(12deg);
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 #img8 {
   transform: rotate(-12deg);
   margin-top: 15px;
@@ -130,6 +124,12 @@ footer {
 }
 
 #img11 {
+  transform: rotate(12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#img12 {
   transform: rotate(12deg);
   margin-top: 15px;
   margin-bottom: 15px;
