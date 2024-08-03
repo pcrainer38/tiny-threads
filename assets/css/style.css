@@ -93,12 +93,6 @@ footer {
   margin-bottom: 15px;
 }
 
-#img4 {
-  transform: rotate(12deg);
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 #img5 {
   transform: rotate(12deg);
   margin-top: 15px;
@@ -133,6 +127,12 @@ footer {
  transform: rotate(-12deg);
  margin-top: 15px;
  margin-bottom: 15px;
+}
+
+#img11 {
+  transform: rotate(12deg);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* The actual timeline (the vertical ruler) */
